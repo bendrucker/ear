@@ -1,5 +1,7 @@
 'use strict'
 
+var assertFn = require('assert-function')
+
 module.exports = Ear
 
 function Ear () {
@@ -16,6 +18,7 @@ function Ear () {
   }
 
   listeners.add = function (listener) {
+    assertFn(listener)
     callbacks.push(listener)
     return function remove () {
       var i = 0
