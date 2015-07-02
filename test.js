@@ -16,3 +16,9 @@ test(function (t) {
   remove()
   listeners()
 })
+
+test('only accept functions', function (t) {
+  var listeners = Listeners()
+  t.throws(listeners.add, /is not a function/)
+  t.end()
+})
