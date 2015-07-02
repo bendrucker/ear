@@ -16,6 +16,8 @@ function Ear () {
   }
 
   listeners.add = function (listener) {
+    if (typeof listener !== 'function') throw new TypeError(listener + ' is not a function')
+
     callbacks.push(listener)
     return function remove () {
       var i = 0
