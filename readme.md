@@ -37,6 +37,9 @@ Type: `function`
 
 A listener to trigger when the parent function is called.
 
+## Related
+* [async-ear](https://github.com/bendrucker/async-ear): asynchronous version
+
 ## License
 
 MIT © [Ben Drucker](http://bendrucker.me)
