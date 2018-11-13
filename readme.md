@@ -1,4 +1,4 @@
-# ear [![Build Status](https://travis-ci.org/bendrucker/ear.svg?branch=master)](https://travis-ci.org/bendrucker/ear)
+# ear [![Build Status](https://travis-ci.org/bendrucker/ear.svg?branch=master)](https://travis-ci.org/bendrucker/ear) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/ear.svg)](https://greenkeeper.io/)
 
 > Manage and call change listeners
 
